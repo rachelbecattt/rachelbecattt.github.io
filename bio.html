@@ -3,68 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bio - Rachel's Space</title>
-    <style>
-           body {
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
-            margin: 0;
-            background-color: #121212;
-            color: #ffffff;
-            font-family: 'Style Script', cursive;
-                }
-        .navbar {
-            position: absolute;
-            top: 10px;
-            right: 20px;
-            background: #1e1e1e;
-            padding: 10px;
-            border-radius: 8px;
-            box-shadow: 0 4px 8px rgba(255, 255, 255, 0.2);
-        }
-        .navbar a {
-            margin: 0 10px;
-            text-decoration: none;
-            color: #ffffff;
-            font-weight: bold;
-            cursor: pointer;
-            padding: 5px 10px;
-            border-radius: 5px;
-            transition: background 0.3s;
-        }
-        .navbar a:hover {
-            background: #333;
-        }
-        .title {
-            font-size: 2.5rem;
-            font-weight: bold;
-            margin-bottom: 20px;
-            color: #ffffff;
-        }
-        .image-container {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            margin-bottom: 20px;
-        }
-        img {
-            max-width: 45%;
-            height: auto;
-            border-radius: 8px;
-            box-shadow: 0 4px 8px rgba(255, 255, 255, 0.2);
-        }
-        .bio-container {
-            text-align: center;
-            background: #1e1e1e;
-            padding: 20px;
-            border-radius: 8px;
-            box-shadow: 0 4px 8px rgba(255, 255, 255, 0.2);
-            max-width: 50%;
-        }
-    </style>
+    <title>Rachel's Space</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div class="navbar">
@@ -75,9 +15,11 @@
     <div class="title">Rachel's Space</div>
     <div class="image-container">
         <img src="Images/cat.jpg" alt="Profile Image">
+        <span class="arrow">⬅️</span>
+        <span>MY CAT ROSIE</span>
     </div>
-    <div class="bio-container">
-        <h2>About Me</h2>
+    <div class="bio-container typing-effect">
+        <h2 class="section-title">About Me</h2>
         <p>Instagram: rachelbecattt_</p>
         <p>Email: rachelj5966@gmail.com</p>
         <p>Issuu: https://issuu.com/rachelbecattt/docs/jingli_portfolio_2025</p>
