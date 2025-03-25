@@ -12,12 +12,30 @@
         <a href="bio.html">BIO</a>
         <a href="#">MORE</a>
     </div>
-    <div class="title">Rachel's Space</div>
-    <div class="image-container">
-        <img src="Images/cat.jpg" alt="Profile Image">
+
+    <div class="game-container">
+        <h1>Help the Kitty Stay Dry! ☂️</h1>
+        <div class="umbrella-container">
+            <img src="Images/Umbrella_Gray Hatched.png" alt="Umbrella 1" class="umbrella" id="umbrella1">
+            <img src="Images/Umbrella_Gray Hatched.png" alt="Umbrella 2" class="umbrella" id="umbrella2">
+            <img src="Images/Umbrella_Gray Hatched.png" alt="Umbrella 3" class="umbrella" id="umbrella3">
+        </div>
+        <div id="popup-message" class="popup">
+            <h2>Correct choice! Now the kitten is HAPPY and DRY!</h2>
+        </div>
+        <div id="raindrop-container"></div>
+
+        <div class="kitty-container">
+            <img id="normal-cat" src="Images/Normal Cat.png" alt="Kitty" class="kitty">
+            <img id="happy-cat" src="Images/HappyCat.png" alt="Happy Cat" class="kitty" style="display: none">
+            <img id="mad-cat" src="Images/MadCat.png" alt="Mad Cat" class="kitty" style="display: none">
+
+        </div>
+
+        <div class="rain" id="rain"></div>
     </div>
-    <div class="bio-container">
-        <h2>There's nothing more~~</h2>
-    </div>
+
+    <script src="script.js"></script>
+
 </body>
 </html>
